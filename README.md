@@ -1,2 +1,4 @@
-# tugas-apl-api
-Tugas APL Penerapan REST HTTP Method
+# Tugas APL
+Penerapan REST HTTP Method
+DTETI FT UGM
+2021
