@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 :root{
     --dark: #2b2d42;
@@ -15,7 +15,7 @@
 
 a {
     text-decoration: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -59,7 +59,7 @@ a {
 }
 
 .text-gradient {
-    background: linear-gradient(to right, #005C97, #363795);
+    background: #709255;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@ a {
 
 #site-main {
     margin-top: 6em;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #site-main .container .box-nav > a {
@@ -95,10 +95,11 @@ table {
     padding: .3em 1em;
     font-size: 1.1em;
     margin: 0 .2em;
+    background: #fff;
 }
 
 .table tr:hover {
-    background-color:#6DD5FA ;
+    background-color:#ABC398 ;
 }
 
 .table tr:hover td > a {
@@ -108,7 +109,6 @@ table {
 .table .thead-dark th {
     color: #fff;
     background-color: var(--dark);
-    border-color: #0072ff;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -156,7 +156,7 @@ table {
     padding: .6em 1em;
     margin: .5em 0;
     border: 1px solid var(--border);
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     border-radius: .2em;
 }
@@ -170,9 +170,9 @@ table {
 #add_user .form-group .btn {
     width: 100%;
     padding: .9em 1em;
-    background-color: #6DD5FA;
+    background-color: #709255;
     border: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     cursor: pointer;
     border-radius: .2em;
