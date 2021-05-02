@@ -16,6 +16,12 @@
 a {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+    color: #709255;
+    transition: color 0.2s;
+}
+a:hover {
+    transition: color 0.2s;
+    color: #2D4422;
 }
 
 .container {
@@ -108,7 +114,7 @@ table {
 
 .table .thead-dark th {
     color: #fff;
-    background-color: var(--dark);
+    background-color: #2D4422;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -174,15 +180,18 @@ table {
     border: none;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
+    font-weight:700;
+    color: var(--border);
     cursor: pointer;
     border-radius: .2em;
     margin: .5em 0;
+    transition: background-color 0.2s;
 }
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover {
-    background-color: var(--dark);
-    color: var(--border);
+    transition: background-color 0.2s;
+    background-color: #2D4422;
 }
 
 /* #endregion */
