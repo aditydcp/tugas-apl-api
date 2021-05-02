@@ -6,11 +6,6 @@ var schema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    email : {
-        type: String,
-        required: true,
-        unique: true
-    },
     posisi : {
         type: String,
         required: true,

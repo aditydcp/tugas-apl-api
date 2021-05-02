@@ -11,7 +11,6 @@ exports.create = (req,res)=>{
     // new user
     const user = new Userdb({
         name : req.body.name,
-        email : req.body.email,
         posisi : req.body.posisi
     })
 
