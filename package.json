@@ -1,16 +1,16 @@
 {
-  "name": "apl-final",
+  "name": "apl-api",
   "version": "1.0.0",
-  "description": "Aplikasi Entri Data Karyawan",
+  "description": "Employee Data Entry",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
   "keywords": [
-    "mongodb"
+    "mongodb", "rest", "api"
   ],
-  "author": "Raihan Ramadhan Hanif Mintarso, Muhammad Afdiansyah",
+  "author": "Aditya Dwi Cahyo, Joseph Gilbert",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

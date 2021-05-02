@@ -2,7 +2,7 @@
 
 
 $("#add_user").submit(function(event){
-    alert("Data Inserted Successfully!");
+    alert("Data inserted successfully!");
 })
 
 $("#update_user").submit(function(event){
@@ -23,7 +23,7 @@ $("#update_user").submit(function(event){
     }
 
     $.ajax(request).done(function(response){
-        alert("Data Updated Successfully!");
+        alert("Data updated successfully!");
     })
 
 })
@@ -38,9 +38,9 @@ if(window.location.pathname == "/"){
             "method" : "DELETE"
         }
 
-        if(confirm("Do you really want to delete this record?")){
+        if(confirm("Are you sure you want to delete this record?")){
             $.ajax(request).done(function(response){
-                alert("Data Deleted Successfully!");
+                alert("Data deleted successfully!");
                 location.reload();
             })
         }
