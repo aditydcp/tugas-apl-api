@@ -102,6 +102,7 @@ table {
     font-size: 1.1em;
     margin: 0 .2em;
     background: #fff;
+    cursor: pointer;
 }
 
 .table tr:hover {
