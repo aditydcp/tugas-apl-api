@@ -8,11 +8,11 @@
     <div class="container">
         <div class="box-nav d-flex justify-between">
            <div class="filter">
-               <a href="/"><i class="fas fa-caret-left"></i> Kembali</a>
+               <a href="/"><i class="fas fa-caret-left"></i>Return</a>
            </div>
         </div>
         <div class="form-title text-center">
-            <h2 class="text-dark">Update Data Karyawan</h2>
+            <h2 class="text-dark">Update Employee Data</h2>
         </div>
 
         <!-- add user form -->
@@ -20,17 +20,17 @@
  <form method="POST" id="update_user">
     <div class="new_user">
         <div class="form-group">
-            <label for="name" class="text-light">Nama</label>
+            <label for="name" class="text-light">Name</label>
             <input type="hidden" name="id" value="<%= user._id %>">
             <input type="text" name="name" value="<%= user.name %>">
         </div>
         <div class="form-group">
-            <label for="Posisi" class="text-light">Posisi</label>
+            <label for="Posisi" class="text-light">Position</label>
             <input type="text" name="posisi" value="<%= user.posisi%>">
         </div>
 
         <div class="form-group">
-            <button type="submit" class="btn text-dark update">Perbarui Data</button>
+            <button type="submit" class="btn text-dark update">Update Data</button>
         </div>
 
     </div>
